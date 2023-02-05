@@ -1,0 +1,35 @@
+CREATE TABLE crystal_shop (id integer primary key, name text, place_of_origin text, price integer, composition text);
+
+INSERT INTO crystal_shop VALUES
+(1, "Calcite", "Texas", 10.00, "CaCO3");
+INSERT INTO crystal_shop VALUES
+(2, "Pink Calcite", "Texas", 13.33, "CaO3");
+INSERT INTO crystal_shop VALUES
+(3, "Blue Calcite", "Texas", 12.22, "CaCO3");
+INSERT INTO crystal_shop VALUES
+(4, "Rainbow Moonstone", "Texas", 11.11,"NaCaAl1Si3O8");
+INSERT INTO crystal_shop VALUES
+(5, "Moonstone", "Texas", 11.11, "NaCaAl1Si3");
+INSERT INTO crystal_shop VALUES
+(6, "Quartz", "New Mexico", 9.99, "SiO2");
+INSERT INTO crystal_shop VALUES
+(7, "Agate", "New Mexico", 13.33, "SiO2");
+INSERT INTO crystal_shop VALUES
+(8, "Jasper", "Texas", 14.44, "SiO2");
+INSERT INTO crystal_shop VALUES
+(9, "Quartzine", "Texas", 10.00, "SiO2");
+INSERT INTO crystal_shop VALUES
+(10, "Opal", "New Mexico", 15.55, "SiO2NHO");
+INSERT INTO crystal_shop VALUES
+(11, "Kyanite", "Texas", 9.99, "Al2SiO2O");
+INSERT INTO crystal_shop VALUES
+(12, "Sodalite", "New Mexico", 7.77, "Na4SiAl3O2Cl");
+INSERT INTO crystal_shop VALUES
+(13, "Yellow Quartz", "Texas", 13.33, "SiO2");
+INSERT INTO crystal_shop VALUES
+(14, "Gypsum", "Texas", 11.11, "CaSO42H2O");
+INSERT INTO crystal_shop VALUES
+(15, "Milky Quartz", "Texas", 11.11, "SiO2");
+SELECT * FROM crystal_shop
+
+ORDER BY price asc;
